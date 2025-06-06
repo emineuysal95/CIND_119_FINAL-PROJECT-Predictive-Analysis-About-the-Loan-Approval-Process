@@ -1,4 +1,4 @@
-# CIND_119_FINAL-PROJECT-Predictive-Analysis-About-the-Loan-Approval-Process
+# CIND_119_FINAL PROJECT:Predictive Analysis About the Loan Approval Process
 
 ## 📘 Project Overview
 This project focuses on predicting loan approval outcomes using the **German Credit dataset**. We explore key financial and demographic attributes of loan applicants and apply two supervised learning models — **Decision Tree** and **Naive Bayes** — to classify creditworthiness.
