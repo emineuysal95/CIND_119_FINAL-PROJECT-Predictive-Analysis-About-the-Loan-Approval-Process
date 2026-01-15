@@ -1,70 +1,50 @@
-# CIND_119_FINAL PROJECT:Predictive Analysis About the Loan Approval Process
+💳 Credit Risk Prediction: Streamlining Loan Approval Processes
+A Data-Driven Approach using SAS and R
 
-## 📘 Project Overview
-This project focuses on predicting loan approval outcomes using the **German Credit dataset**. We explore key financial and demographic attributes of loan applicants and apply two supervised learning models — **Decision Tree** and **Naive Bayes** — to classify creditworthiness.
+🚀 Business Impact
+Developed a predictive framework to automate credit risk assessment, achieving 78% accuracy in identifying high-risk loan applicants. This model helps financial institutions reduce default rates while optimizing decision-making efficiency.
 
-The aim is to build a data-driven decision support system that assists financial institutions in reducing risk and streamlining the loan approval process.
+📊 Project Overview
+This project focuses on predicting loan approval outcomes using the German Credit dataset. We explore key financial and demographic attributes and apply two supervised learning models to classify creditworthiness.
 
-## 🛠️ Tools & Technologies
-- **RStudio** (Naive Bayes model, EDA)
-- **SAS** (Decision Tree model, model performance)
-- German Credit Dataset (.csv)
+Goal: To build a data-driven decision support system that reduces financial risk and streamlines approvals.
 
-## 📊 Dataset Description
-- 1000 records of loan applicants
-- 21 features including:
-  - **Financial attributes**: Account balance, credit amount, value savings, installment percentage
-  - **Demographics**: Age, gender/marital status, employment length, apartment type
-  - **Target variable**: `Creditability` (1 = good credit, 0 = bad credit)
+🛠️ Tools & Technologies
+RStudio: Naive Bayes model & Exploratory Data Analysis (EDA).
 
-## 🔍 Key Steps
-1. **Exploratory Data Analysis (EDA)**
-   - Summary statistics
-   - Outlier detection (IQR)
-   - Missing value check (none)
-   - Class imbalance analysis (70% creditworthy)
-2. **Feature Engineering**
-   - Identified top predictors: AccountBalance, ValueSavingsandStocks, CreditAmount
-   - Correlation and variable importance explored
-3. **Predictive Modeling**
-   - **Decision Tree** (SAS)
-     - Used Gini Index and pruning for generalization
-     - Accuracy: ~76%
-     - AUC: 0.7611
-   - **Naive Bayes** (RStudio)
-     - Full model vs. selected features
-     - Accuracy: ~78%
+SAS: Decision Tree model & Performance metrics.
 
-## 📈 Results Summary
-- **Naive Bayes** slightly outperforms Decision Tree in accuracy.
-- **Top Predictors**: Account Balance, Value of Savings, Credit Amount
-- Simplified models using fewer predictors still achieve competitive accuracy.
+Dataset: German Credit Dataset (1,000 records, 21 features).
 
-## 🧠 Recommendations
-- Focus on most influential variables during application evaluation.
-- Add external variables like income or credit score to improve prediction.
-- Consider model simplification by removing low-impact variables (e.g., number of dependents).
+🔍 Analytical Steps
+EDA & Data Cleaning: Outlier detection (IQR), missing value checks, and class imbalance analysis (70% creditworthy).
 
-## 👥 Contributors
-- Emine Uysal – SAS modeling and final reporting
-- Sharmila Nandi – R modeling and feature importance analysis
+Feature Engineering: Identified top predictors (Account Balance, Value Savings, Credit Amount).
 
-## 📂 Repository Structure
-```
-├── data/                    # German Credit dataset (CSV)
-├── SAS_Code/               # Decision Tree implementation in SAS
-├── reports/                # Model outputs, plots, and EDA summaries
-├── README.md               # Project overview and documentation
-```
+Predictive Modeling:
 
-## 🎯 Goal
-To develop an interpretable and accurate model for evaluating the creditworthiness of loan applicants and improving the loan approval process using predictive analytics.
+Decision Tree (SAS): Pruned for generalization. Accuracy: 76% | AUC: 0.7611.
 
----
+Naive Bayes (R): Optimized feature selection. Accuracy: 78%.
 
-> This project was submitted for **CIND 119: Introduction to Big Data Analytics** at Toronto Metropolitan University – The Chang School.
----
-Author: Emine Uysal 
-FINAL PROJECT: Predictive Analysis About the Loan Approval Process
+📈 Results & Recommendations
+Top Predictors: Account Balance and Savings Value are the most influential variables.
+
+Strategic Recommendation: Financial institutions should prioritize these high-impact variables to enhance risk modeling precision.
+
+Future Work: Integrate external credit scores and income data to further improve prediction accuracy.
+
+📂 Repository Structure
+data/: German Credit dataset (CSV).
+
+SAS_Code/: Decision Tree implementation.
+
+reports/: Model outputs, plots, and summaries.
+
+Course: CIND 119: Introduction to Big Data Analytics
+
+Institution: Toronto Metropolitan University (TMU)
+
+Author: Emine Uysal
+
 Date: December 2024
-
