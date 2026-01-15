@@ -40,7 +40,7 @@ Strategic Recommendation: Financial institutions should prioritize these high-im
 
 Future Work: Integrate external credit scores and income data to further improve prediction accuracy.
 
-📂 Repository Structure
+##📂 Repository Structure
 data/: German Credit dataset (CSV).
 
 SAS_Code/: Decision Tree implementation.
