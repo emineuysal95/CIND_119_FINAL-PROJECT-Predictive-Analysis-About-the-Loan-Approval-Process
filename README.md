@@ -1,5 +1,6 @@
 #💳 Credit Risk Prediction: Streamlining Loan Approval Processes
-##A Data-Driven Approach using SAS and R
+
+A Data-Driven Approach using SAS and R
 
 ##🚀 Business Impact
 
