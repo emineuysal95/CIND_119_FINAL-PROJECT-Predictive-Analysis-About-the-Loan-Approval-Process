@@ -1,7 +1,8 @@
 #💳 Credit Risk Prediction: Streamlining Loan Approval Processes
 ##A Data-Driven Approach using SAS and R
 
-##🚀 Business Impact.
+##🚀 Business Impact
+
 Developed a predictive framework to automate credit risk assessment, achieving 78% accuracy in identifying high-risk loan applicants. This model helps financial institutions reduce default rates while optimizing decision-making efficiency.
 
 ##📊 Project Overview.
